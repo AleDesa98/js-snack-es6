@@ -24,4 +24,6 @@ for (let i = 1; i < bici.length; i++) {
         biciLeggera = biciCorrente;
     }
 }
-console.log(biciLeggera);
+var {nome, peso} = biciLeggera;
+
+console.log(`${nome} è la bici più leggera e pesa ${peso}`);
